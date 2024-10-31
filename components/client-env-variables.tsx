@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect } from "react";
 import {
   Card,
@@ -24,7 +22,7 @@ type EnvVariable = {
   value: string;
 };
 
-export default function EnvVariables() {
+export default function ClientEnvVariables() {
   const [envVariables, setEnvVariables] = useState<EnvVariable[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
