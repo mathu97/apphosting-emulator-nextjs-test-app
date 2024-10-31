@@ -34,8 +34,10 @@ export default function EnvVariables({
   return (
     <Card className="w-full max-w-4xl mx-auto">
       <CardHeader>
-        <CardTitle>Environment Variables</CardTitle>
-        <CardDescription>Displaying all environment variables</CardDescription>
+        <CardTitle>Server-Side Environment Variables</CardTitle>
+        <CardDescription>
+          Displaying all server-side environment variables
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <div className="space-y-4">

@@ -46,9 +46,9 @@ export default function ClientEnvVariables() {
   return (
     <Card className="w-full max-w-4xl mx-auto">
       <CardHeader>
-        <CardTitle>Environment Variables</CardTitle>
+        <CardTitle>Client-Side Environment Variables</CardTitle>
         <CardDescription>
-          Displaying all environment variables (via `process.env`)
+          Displaying all client-side environment variables
         </CardDescription>
       </CardHeader>
       <CardContent>
